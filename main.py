@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.environ.get("AIzaSyCE8y87en0Kgclk1MGn9CAl_z-XD69485o")
+api_key = os.environ.get("GENAI_API_KEY")
 
 from google import genai
 
